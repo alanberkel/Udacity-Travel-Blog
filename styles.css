@@ -1,0 +1,53 @@
+@import "./css/nav.css";
+@import "./css/content.css";
+@import "./css/subpage.css";
+
+body {
+    margin: 0px; font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center; 
+}
+
+.content-box{
+  min-height: 100vh;
+}
+
+.footer {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid darkgray;
+    color: darkgray;
+    font-size: 1rem;
+    text-decoration: none;
+    position:relative;
+    left: 0;
+    bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  color: darkgray;
+}
+
+.footer a:hover {
+  color: darkorange;
+}
+
+quote {
+  font-style: italic;
+}
+
+
+ /* * {
+    border: 1px solid red !important;
+  } */

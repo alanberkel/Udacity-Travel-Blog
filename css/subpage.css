@@ -1,0 +1,49 @@
+/* Sub Page */
+.two-column-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "sublft"
+    "subrgt";
+}
+
+@media (min-width: 600px) {
+    .two-column-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "sublft subrgt";
+    }
+}
+
+    .sub-left{
+        grid-area: sublft;
+        width: 100%;
+    }
+
+    .sub-right{
+        grid-area: subrgt;
+        width: 100%;
+    }
+
+.post-image-box img {
+    width: 100%;
+}
+
+.post-content-box {
+    padding: 10px 20px;
+}
+
+.post-content-box h1{
+    color: lightseagreen;
+    margin: 0;
+}
+
+.post-content-box h2{
+    color: black;
+    margin-top: 5px;
+}
+.post-content-box h3{
+    color: #666666;
+    margin: 0;
+}

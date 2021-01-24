@@ -1,0 +1,124 @@
+/* For content.css */
+
+.content-items-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    grid-template-areas:
+    "pos1"
+    "pos2"
+    "pos3"
+    "pos4"
+    "pos5"
+    "pos6"
+    "pos7"
+    "pos8"
+    "pos9";
+}
+
+ @media (min-width: 600px) and (max-width:900px){
+    .content-items-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:1px;
+        grid-template-areas:
+        "pos1 pos2"
+        "pos3 pos4"
+        "pos5 pos6"
+        "pos7 pos8"
+        "pos9 pos9";
+    }
+} 
+
+@media (min-width:901px) {
+    .content-items-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:1px;
+        grid-template-areas:
+        "pos1 pos2 pos3"
+        "pos4 pos5 pos6"
+        "pos7 pos8 pos9";
+    }
+}
+
+.p1 {
+    grid-area: pos1;
+}
+
+.p2 {
+    grid-area: pos2;
+}
+
+.p3 {
+    grid-area: pos3;
+}
+
+.p4 {
+    grid-area: pos4;
+}
+
+.p5 {
+    grid-area: pos5;
+}
+
+.p6 {
+    grid-area: pos6;
+}
+
+.p7 {
+    grid-area: pos7;
+}
+
+.p8 {
+    grid-area: pos8;
+}
+
+.p9 {
+    grid-area: pos9;
+}
+
+.content-item-box {
+    position: relative;
+}
+
+.content-img-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-box {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 100%;
+    text-align:center;
+    width: 100%;
+}
+
+.logo-box img {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.img-text-box .subtitle a {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.img-text-box:hover .subtitle a {
+    font-weight: 600;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    justify-content: center;
+    text-decoration: none;
+}
