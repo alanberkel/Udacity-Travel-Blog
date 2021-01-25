@@ -1,22 +1,35 @@
-#img1 {
-    background-image:url('/images/grand-canyon.jpg');
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.p1 .content-img-background {
+    background-image:url('../images/grand-canyon.jpg');
 }
 
+.p2 .content-img-background {
+    background-image:url('../images/bodega-headlands.jpg');
+}
 
+.p3 .content-img-background {
+    background-image:url('../images/sedona-arizona.jpg');
+}
 
-/*
-style=" background-image:url(images/grand-canyon.jpg)"
-style=" background-image:url(images/bodega-headlands.jpg)"
- style=" background-image:url(images/sedona-arizona.jpg)"
-style=" background-image:url(images/reefshark.jpg)"
- style=" background-image:url(images/seaturtle.jpg)"
-style=" background-image:url(images/sealion.jpg)"
- style=" background-image:url(images/vancouver-island.jpg)"
- style=" background-image:url(images/salt-springs-island.jpg)"
-style=" background-image:url(images/tomales-point.jpg)"
-*/
+.p4 .content-img-background {
+    background-image:url('../images/reefshark.jpg');
+}
+
+.p5 .content-img-background {
+    background-image:url('../images/seaturtle.jpg');
+}
+
+.p6 .content-img-background {
+    background-image:url('../images/sealion.jpg');
+}
+
+.p7 .content-img-background {
+    background-image:url('../images/vancouver-island.jpg');
+}
+
+.p8 .content-img-background {
+    background-image:url('../images/salt-springs-island.jpg');
+}
+
+.p9 .content-img-background {
+    background-image:url('../images/tomales-point.jpg');
+}
