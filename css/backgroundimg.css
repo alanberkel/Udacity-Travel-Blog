@@ -1,0 +1,22 @@
+#img1 {
+    background-image:url('/images/grand-canyon.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/*
+style=" background-image:url(images/grand-canyon.jpg)"
+style=" background-image:url(images/bodega-headlands.jpg)"
+ style=" background-image:url(images/sedona-arizona.jpg)"
+style=" background-image:url(images/reefshark.jpg)"
+ style=" background-image:url(images/seaturtle.jpg)"
+style=" background-image:url(images/sealion.jpg)"
+ style=" background-image:url(images/vancouver-island.jpg)"
+ style=" background-image:url(images/salt-springs-island.jpg)"
+style=" background-image:url(images/tomales-point.jpg)"
+*/
